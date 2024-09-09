@@ -1,0 +1,13 @@
+name: driveml
+channels:
+    - defaults
+    - conda-forge
+    - pytorch
+dependencies:
+    - python==3.12
+    - jupyter
+    - ruff
+    - openblas
+    - pyopenssl
+    - setuptools>=47.3.1
+    - s5cmd
