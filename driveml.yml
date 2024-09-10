@@ -9,5 +9,8 @@ dependencies:
     - ruff
     - openblas
     - pyopenssl
-    - setuptools>=47.3.1
+    - setuptools
+    - auditwheel
     - s5cmd
+    - distro
+    - wheel
